@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/anandpavithran/infosys:1.0
+        image: quay.io/anandpavithran/infosys:2.0
         ports:
         - containerPort: 8080
           name: web
